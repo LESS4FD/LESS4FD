@@ -1,16 +1,37 @@
-### Hi there 👋
+# On Fake News Detection with LLM Enhanced Semantics Mining
 
-<!--
-**LESS4FD/LESS4FD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### This repository is the official implementation of "On Fake News Detection with LLM Enhanced Semantics Mining" 
 
-Here are some ideas to get you started:
+## Datasets
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+To access the datasets used in this study, please use the following links:
+
+MM COVID: https://github.com/bigheiniu/MM-COVID
+
+ReCOVery: http://coronavirus-fakenews.com
+
+MC Fake: https://github.com/qwerfdsaplking/MC-Fake
+
+PAN2020: https://pan.webis.de/data.html
+
+LIAR: https://www.cs.ucsb.edu/~william/data/liar_dataset.zip
+
+## To Run
+
+Build heterogeneous graphs for each dataset:
+
+```
+python build_graph.py --dataset <dataset_name> --num_topics <num_of_topics>
+```
+
+Run HeteroSGT for fake news detection
+
+```
+python main.py --dataset <dataset_name> --num_topics <num_of_topics>
+```
+
+Run case study for $\lambda_{ce}$ and $\lambda_{cr}$
+
+```python
+bash lambda_test.sh
+```
