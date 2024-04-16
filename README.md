@@ -30,7 +30,7 @@ Run HeteroSGT for fake news detection
 python main.py --dataset <dataset_name> --num_topics <num_of_topics>
 ```
 
-Run case study for $\lambda_{ce}$ and $\lambda_{cr}$
+Run case study for $\lambda_{ce}$
 
 ```python
 bash lambda_test.sh
