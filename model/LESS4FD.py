@@ -193,13 +193,14 @@ def train(model, data, optimizer, idx_train, idx_val, idx_test, labels, args,
             log_prob_global = log_prob_global.to(device)
             weights = weights.to(device)
             loss +=args.lambda_ce * (F.nll_loss(log_prob_local[idx_train], labels[idx_train], weight=weights) + args.lambda_g * F.nll_loss(log_prob_global[idx_train], labels[idx_train], weight=weights))
- 
-            if args.lambda_cr > 0:
+
+            lambda_cr = 1- args.lambda_ce
+            if lambda_cr > 0:
                 if args.onlyUnlabel == "yes":
                     loss_cr = consis_loss(args.cr_loss, [log_prob_local[unsup_idx], log_prob_global[unsup_idx]], args.cr_tem, args.cr_conf,args.lambda_g)
                 else:
                     loss_cr = consis_loss(args.cr_loss, [log_prob_local, log_prob_global], args.cr_tem, args.cr_conf)
-                loss += args.lambda_cr * loss_cr
+                loss += lambda_cr * loss_cr
 
             loss.backward()
             max_grad_norm = 1.0
@@ -242,6 +243,7 @@ def validation(y_final, labels, idx, metric, fold):
     metric.metrics['recalls'][f'fold{fold+1}'].append(recall_score(labels.cpu(), y_pred.cpu(), average='macro'))
     metric.metrics['f1s'][f'fold{fold+1}'].append(f1_score(labels.cpu(), y_pred.cpu(), average='macro'))
     metric.metrics['aucs'][f'fold{fold+1}'].append(roc_auc_score(labels.cpu(), y_pred.cpu(), average='macro'))
+    
     y_test = y_final.cpu()[idx]
     fpr, tpr, thresholds = roc_curve(labels.cpu(), y_test.cpu()[:, 1])
     roc_auc = auc(fpr, tpr)
