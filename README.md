@@ -49,16 +49,16 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 *ROC curves*  <br> <br>
 
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
-*Abaltion results of $LESS4FD*$*  <br> <br>
+*Abaltion results of __LESS4FD<sup>*</sup>__*  <br> <br>
 
 ![Abaltion Results_2](/figs/ablation_1.png "Abaltion results of $LESS4FD^{\diamond}$") <br>
-*Abaltion results of $LESS4FD^{\diamond}$*  <br> <br>
+*Abaltion results of __LESS4FD<sup>⋄</sup>__*  <br> <br>
 
 ![Computational Costs](/figs/cost.png "Computational Costs") <br>
 *Computational Costs*  <br> <br>
 
 ![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*") <br>
-*Performance on different topics of LESS4FD<sup>*</sup>*  <br> <br>
+*Performance on different topics of __LESS4FD<sup>*</sup>__*  <br> <br>
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
-*Performance on different topics of LESS4FD<sup>⋄</sup>*  <br> <br>
+*Performance on different topics of __LESS4FD<sup>⋄</sup>__*  <br> <br>
