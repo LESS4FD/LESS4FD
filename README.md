@@ -40,5 +40,5 @@ bash lambda_test.sh
 To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows:
 
 ![Overall Results](/figs/res_all_1.png "Overall results w.r.t accuracy and F1 score ")
->*Overall results w.r.t accuracy and F1 score*
+*Overall results w.r.t accuracy and F1 score*
 
