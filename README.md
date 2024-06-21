@@ -58,7 +58,7 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 *Computational Costs*  <br> <br>
 
 ![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*") <br>
-*Performance on different topics of $LESS4FD*$*  <br> <br>
+*Performance on different topics of LESS4FD<sup>*</sup>*  <br> <br>
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
 *Performance on different topics of LESS4FD<sup>⋄</sup>*  <br> <br>
