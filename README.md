@@ -49,16 +49,16 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 *ROC curves*  <br> <br>
 
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
-*Abaltion results of LESS4FD with GPT-3.5 derived embeddings*  <br> <br>
+*Abaltion results of $LESS4FD*$*  <br> <br>
 
 ![Abaltion Results_2](/figs/ablation_1.png "Abaltion results of $LESS4FD^{\diamond}$") <br>
-*Abaltion results of LESS4FD with Llama2 derived embeddings*  <br> <br>
+*Abaltion results of $LESS4FD^{\diamond}$*  <br> <br>
 
 ![Computational Costs](/figs/cost.png "Computational Costs") <br>
 *Computational Costs*  <br> <br>
 
 ![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*") <br>
-*Performance on different topics of $LESS4FD$* *  <br> <br>
+*Performance on different topics of $LESS4FD*$*  <br> <br>
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
 *Performance on different topics of $LESS4FD^{\diamond}$*  <br> <br>
