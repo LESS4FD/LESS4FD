@@ -38,7 +38,7 @@ bash lambda_test.sh
 
 ## Experimental Results:
 To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows:
-(We refer to the implementation using GPT-3.5 as $LESS4FD*$ and the implementation with Llama2 as $LESS4FD^{\diamond}$.)
+(We refer to the implementation using GPT-3.5 as $LESS4FD$* and the implementation with Llama2 as $LESS4FD^{\diamond}$.)
 
 ![Overall Results_1](/figs/res_all_1.png "Overall results w.r.t accuracy and F1 score")
 *Overall results w.r.t accuracy and F1 score* <br>
@@ -58,7 +58,7 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 ![Computational Costs](/figs/costs.png "Computational Costs")
 *Computational Costs*
 
-![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD*$")
+![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*")
 *Performance on different topics of LESS4FD with GPT-3.5 derived embeddings*
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$")
