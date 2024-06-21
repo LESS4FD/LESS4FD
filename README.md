@@ -61,4 +61,4 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 *Performance on different topics of $LESS4FD*$*  <br> <br>
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
-*Performance on different topics of LESS4FD⋄*  <br> <br>
+*Performance on different topics of LESS4FD<sup>⋄</sup>*  <br> <br>
