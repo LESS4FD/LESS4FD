@@ -45,8 +45,6 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 ![Overall Results_2](/figs/res_all_2.png "Overall results w.r.t precision and recall") <br>
 *Overall results w.r.t accuracy and F1 score*  <br> <br>
 
-![aucs](/figs/aucs.png "ROC curves") <br>
-*ROC curves*  <br> <br>
 
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
 *Abaltion results of <strong>LESS4FD<sup>*</sup></strong>*  <br> <br>
