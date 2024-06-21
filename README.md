@@ -35,3 +35,9 @@ Run case study for $\lambda_{ce}$
 ```python
 bash lambda_test.sh
 ```
+
+## Experimental Results:
+To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows:
+
+![Overall Results](/figs/res_all_1.png "Overall Results")
+
