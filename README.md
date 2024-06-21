@@ -38,10 +38,10 @@ bash lambda_test.sh
 
 ## Experimental Results:
 To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows:
+$\textsc{Less4FD}^{\diamond}$
 
-(\textsc{Less4FD*})
 ![Overall Results_1](/figs/res_all_1.png "Overall results w.r.t accuracy and F1 score")
-*Overall results w.r.t accuracy and F1 score*
+*Overall results w.r.t accuracy and F1 score* <br>
 
 ![Overall Results_2](/figs/res_all_2.png "Overall results w.r.t precision and recall")
 *Overall results w.r.t accuracy and F1 score*
@@ -54,7 +54,6 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 
 ![Abaltion Results_2](/figs/ablation_1.png "Abaltion results of LESS4FD with Llama2 derived embeddings")
 *Abaltion results of LESS4FD with Llama2 derived embeddings*
-
 
 ![Computational Costs](/figs/costs.png "Computational Costs")
 *Computational Costs*
