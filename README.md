@@ -37,7 +37,7 @@ bash lambda_test.sh
 ```
 
 ## Experimental Results:
-To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows (we refer to the implementation using GPT-3.5 as $LESS4FD$* and the implementation with Llama2 as $LESS4FD^{\diamond}$) :
+To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows (we refer to the implementation using GPT-3.5 as __LESS4FD<sup>*</sup>__ and the implementation with Llama2 as __LESS4FD<sup>⋄</sup>__) :
 
 ![Overall Results_1](/figs/res_all_1.png "Overall results w.r.t accuracy and F1 score") <br>
 *Overall results w.r.t accuracy and F1 score* <br> <br>
@@ -46,7 +46,7 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 *Overall results w.r.t accuracy and F1 score*  <br> <br>
 
 ![aucs](/figs/aucs.png "ROC curves") <br>
-*ROC curves*  <br> <br>
+*ROC curves* [PDF file](/figs/less4fd_aucs_final.pdf) <br> <br>
 
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
 *Abaltion results of <strong>LESS4FD<sup>*</sup></strong>*  <br> <br>
@@ -58,7 +58,7 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 *Computational Costs*  <br> <br>
 
 ![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*") <br>
-*Performance on different topics of <strong>LESS4FD<sup>*</sup></strong>*  <br> <br>
+*Performance on different topics of <strong>LESS4FD<sup>*</sup></strong>*  [PDF file](/figs/performance on different topics.pdf) <br> <br>
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
-*Performance on different topics of __LESS4FD<sup>⋄</sup>__*  <br> <br>
+*Performance on different topics of __LESS4FD<sup>⋄</sup>__*  [PDF file](/figs/topics_llama2.pdf) <br> <br>
