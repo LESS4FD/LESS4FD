@@ -37,7 +37,7 @@ bash lambda_test.sh
 ```
 
 ## Experimental Results:
-To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows (We refer to the implementation using GPT-3.5 as $LESS4FD$* and the implementation with Llama2 as $LESS4FD^{\diamond}$) :
+To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows (we refer to the implementation using GPT-3.5 as $LESS4FD$* and the implementation with Llama2 as $LESS4FD^{\diamond}$) :
 
 ![Overall Results_1](/figs/res_all_1.png "Overall results w.r.t accuracy and F1 score")
 *Overall results w.r.t accuracy and F1 score* <br> <br>
