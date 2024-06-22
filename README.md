@@ -49,7 +49,7 @@ To validate the efficacy of our approach, we conducted comprehensive experiments
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
 *Abaltion results of <strong>LESS4FD<sup>*</sup></strong>*  <br> <br>
 
-![Abaltion Results_2](/figs/ablation_1.png "Abaltion results of $LESS4FD^{\diamond}$") <br>
+![Abaltion Results_2](/figs/ablation_2.png "Abaltion results of $LESS4FD^{\diamond}$") <br>
 *Abaltion results of __LESS4FD<sup>⋄</sup>__*  <br> <br>
 
 ![Computational Costs](/figs/cost.png "Computational Costs") <br>
