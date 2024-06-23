@@ -40,7 +40,7 @@ bash lambda_test.sh
 To validate the efficacy of our approach, we conducted comprehensive experiments, detailed as follows (we refer to the implementation using GPT-3.5 as __LESS4FD<sup>*</sup>__ and the implementation with Llama2 as __LESS4FD<sup>⋄</sup>__) :
 
 ![Overall Results_1](/figs/res_all_1.png "Overall results w.r.t accuracy and F1 score") <br>
-*Overall results w.r.t accuracy and F1 score* <br> <br>
+Overall results w.r.t accuracy and F1 score <br> <br>
 
 ![Overall Results_2](/figs/res_all_2.png "Overall results w.r.t precision and recall") <br>
 *Overall results w.r.t accuracy and F1 score*  <br> <br>
