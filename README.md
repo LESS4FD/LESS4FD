@@ -63,5 +63,5 @@ Table 5. Computational Costs.  <br> <br>
 ![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*") <br>
 Figure 3. Performance of  __LESS4FD<sup>*</sup>__ on different topics.  <br> <br>
 
-![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
+![Topics_2](/figs/topics_llama2.png "Performance on different topics of $LESS4FD^{\diamond}$") <br>
 Figure 4. Performance of __LESS4FD<sup>⋄</sup>__ on different topics.  <br> <br>
