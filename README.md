@@ -45,6 +45,12 @@ Table 1. Overall results w.r.t accuracy and F1 score. <br> <br>
 ![Overall Results_2](/figs/res_all_2.png "Overall results w.r.t precision and recall") <br>
 Table 2. Overall results w.r.t accuracy and F1 score.  <br> <br>
 
+![Aucs_1](/figs/aucs_1.png "ROC curves part 1") <br>
+Figure 1. ROC curves (part 1) .  <br> <br>
+
+![Topics_2](/figs/aucs_2.png "ROC curves part 2") <br>
+Figure 2. ROC curves (part 2).  <br> <br>
+
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
 Table 3. Abaltion results of __LESS4FD<sup>*</sup>__.  <br> <br>
 
@@ -55,7 +61,7 @@ Table 4. Abaltion results of __LESS4FD<sup>⋄</sup>__.  <br> <br>
 Table 5. Computational Costs.  <br> <br>
 
 ![Topics_1](/figs/topics_gpt.png "Performance on different topics of $LESS4FD$*") <br>
-Figure 2. Performance of  __LESS4FD<sup>*</sup>__ on different topics.  <br> <br>
+Figure 3. Performance of  __LESS4FD<sup>*</sup>__ on different topics.  <br> <br>
 
 ![Topics_2](/figs/topics_llama2.png "Performance on different topics of  $LESS4FD^{\diamond}$") <br>
-Figure 3. Performance of __LESS4FD<sup>⋄</sup>__ on different topics.  <br> <br>
+Figure 4. Performance of __LESS4FD<sup>⋄</sup>__ on different topics.  <br> <br>
