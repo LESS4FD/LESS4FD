@@ -24,7 +24,7 @@ Build a heterogeneous graph for each dataset:
 python build_graph.py --dataset <dataset_name> --num_topics <num_of_topics>
 ```
 
-Run HeteroSGT for fake news detection
+Run LESS4FD for fake news detection
 
 ```
 python main.py --dataset <dataset_name> --num_topics <num_of_topics>
