@@ -18,7 +18,7 @@ LIAR: https://www.cs.ucsb.edu/~william/data/liar_dataset.zip
 
 ## To Run
 
-Build heterogeneous graphs for each dataset:
+Build a heterogeneous graph for each dataset:
 
 ```
 python build_graph.py --dataset <dataset_name> --num_topics <num_of_topics>
