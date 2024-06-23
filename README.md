@@ -45,10 +45,10 @@ Table 1. Overall results w.r.t accuracy and F1 score. <br> <br>
 ![Overall Results_2](/figs/res_all_2.png "Overall results w.r.t precision and recall") <br>
 Table 2. Overall results w.r.t accuracy and F1 score.  <br> <br>
 
-![Aucs_1](/figs/aucs_1.png "ROC curves part 1") <br>
+![Aucs_1](/figs/auc_1.png "ROC curves part 1") <br>
 Figure 1. ROC curves (part 1) .  <br> <br>
 
-![Topics_2](/figs/aucs_2.png "ROC curves part 2") <br>
+![Topics_2](/figs/auc_2.png "ROC curves part 2") <br>
 Figure 2. ROC curves (part 2).  <br> <br>
 
 ![Abaltion Results_1](/figs/ablation_1.png "Abaltion results of $LESS4FD*$") <br>
